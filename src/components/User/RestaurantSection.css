@@ -1,0 +1,38 @@
+/* RestaurantSection.css */
+
+.restaurant-section {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 1rem auto;
+    max-width: 1200px;
+}
+
+.restaurant-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.restaurant-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+}
+
+.restaurant-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.restaurant-card p {
+    margin: 0.5rem 0;
+}

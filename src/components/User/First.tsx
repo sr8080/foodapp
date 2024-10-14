@@ -1,0 +1,34 @@
+import React, { useState } from 'react';
+import Headder from './Header';
+import Menu from './Menu';
+import Restaurantlist from './Restaurantlist';
+import Footer from './Footer';
+import Offers from './Offer';
+import FirstHeader from './FirstHeader';
+
+
+const First: React.FC = () => {
+  
+  
+  return (
+    <div>
+      <FirstHeader />
+      <div  className='ml-44 w-8/12'>
+      <h1 className='mt-7 font-bold text-2xl'>Best Offers For You</h1>
+      <Offers/>
+        <h1 className='mt-7 font-bold text-2xl'>Whats's in your mind?</h1>
+      <Menu/>  
+      </div>
+
+      <div  className='ml-44 w-9/12' >
+      <h1 className='mt-7 font-bold text-2xl'>Restaurants with online food delivery in Location</h1>
+      <Restaurantlist />
+      </div>
+      <Footer/>
+     
+    
+    </div>
+  );
+};
+
+export default First;
